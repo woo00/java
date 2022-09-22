@@ -1,5 +1,7 @@
 package oday02;
 
+import java.util.Scanner;
+
 public class Ex12 {
 /*
 	 문제 10 ]
@@ -19,6 +21,23 @@ public class Ex12 {
  */
 	public static void main(String[] args) {
 		
+		// 입력 도구 생성
+		Scanner sc = new Scanner(System.in);
+		
+		// 입력도구 텍스트 출력
+		System.out.print("코드를 입력하세요. : ");
+		
+		// 입력정수 기억
+		int cod = sc.nextInt();
+		
+		// 입력도구 텍스트 출력
+		System.out.print("사용량을 입력하세요. : ");
+		
+		// 입력정수 기억
+		int use = sc.nextInt();
+		
+		// 변수 선언하기
+		if()
 	}
 
 }

@@ -1,7 +1,8 @@
 package oday02;
 
 public class Ex13 {
-/*
+	public static void main(String[] args) {
+		/*
 	문제 11]
 		다섯자리의 숫자를 입력받아서
 		그 숫자가 회문수 인지 아닌지를 판별해주는 프로그램을 작성하세요.
@@ -19,8 +20,7 @@ public class Ex13 {
 			
 			2. 어려운방법 ] 숫자로 처리하는 방법
 					
- */
-	public static void main(String[] args) {
+		 */
 		
 	}
 
