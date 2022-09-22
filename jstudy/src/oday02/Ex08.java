@@ -21,10 +21,12 @@ public class Ex08 {
 		int num = sc.nextInt();
 		
 		// 입력한 수 보다 큰 가까운 10의 배수 만들기
-		
+		int result = (num + 10) - (num % 10);
+		System.out.println("가까운 큰 10의 배수는 : " + result);
 		
 		// 생성한 10의 배수에서 입력한 수 빼기 
-		
+		int result2 = result - num;
+		System.out.println("위의 숫자에서 입력한 수를 뺌 : " + result2);
 		
 		// 출력
 		
