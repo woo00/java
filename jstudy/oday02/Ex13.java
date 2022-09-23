@@ -1,5 +1,7 @@
 package oday02;
 
+import java.util.*;
+
 public class Ex13 {
 /*
 	문제 11]
@@ -22,6 +24,5 @@ public class Ex13 {
  */
 	public static void main(String[] args) {
 		
-	}
 
 }
