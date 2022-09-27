@@ -23,24 +23,13 @@ public class Ex13 {
 			2. 어려운방법 ] 숫자로 처리하는 방법
 					
 		 */
+		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자를 입력하세요. : ");
-		int no = sc.nextInt();
-		int tmp = no;
-		sc.close();
-		int num = (int)Math.pow(10, (no + "").length() - 1);
-		String result - "회문수이다.";
-		for(int i = 0 ; i < (no + "").length() / 2 ; i++);{
-			if((tmp / num) !=(tmp % 10)) {
-				result = "회문수가 아니다.";
-				break;
-			}
-			tmp = tmp % num / 10;
-			num /= 100;
-		}
-		System.out.println("입력받은 숫자 [ " + no + " ] 는" + result);
+		
+		System.out.print("다섯자리 숫자를 입력하세요. : ");
+		
+		int num = sc.nextInt();
+		
+		
 	}
-
-	}
-
 }

@@ -20,7 +20,7 @@ public class pt01 {
 		
 		for(int i = 0 ; i < 4 ; i ++) {
 			for(int j = 0 ; i < score[i].length; j++) {
-				System.out.println();
+				System.out.println(score[i][j]);
 			}
 		}
 		

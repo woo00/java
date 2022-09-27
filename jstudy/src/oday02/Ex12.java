@@ -36,8 +36,28 @@ public class Ex12 {
 		// 입력정수 기억
 		int use = sc.nextInt();
 		
-		// 변수 선언하기
-		if()
+		//1
+		int result = 0;
+		String str = "";
+		// 변수 선언하기 3200			174
+		switch (cod) {
+			case 1 : 
+				str = "가정용";
+				result = 3800 + use * 245;
+				break;
+			case 2 : 
+				str = "산업용";
+				result = 2400 + use * 157;
+				break;
+			case 3 : 
+				str = "교육용";
+				result = 2900 + use * 169;	
+				break;
+			case 4 : 
+				str = "상업용";
+				result = 3200 + use * 174;
+				break;
+		}
+		System.out.println(str+" 전기세 사용량은 ["+result+"]원 입니다.");
 	}
-
 }
