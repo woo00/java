@@ -10,8 +10,24 @@ package oday03;
 public class Ex04 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int no = (int)(Math.random()*98+3);
+		
+		// 이 수가 소수인지 판별
+		
+		int i = 2;
+		
+		//결과값 변수
+		String result="소수입니다.";
+				
+		for(; i < no ; i++) {
+			if(no % i == 0) {
+				result ="소수가 아닙니다.";
+				// 반복작업의 의미가 없어졌으므로 즉시 종료
+				break;
+			}
+		}
+		
+		System.out.println(no + " : " + result);
 	}
 
 }

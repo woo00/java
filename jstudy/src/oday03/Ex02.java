@@ -48,6 +48,19 @@ public class Ex02 {
 			}
 			
 		}
+		
+		int result = no2;
+		//최소 공배수
+		while(true) {
+			if(result % no1 == 0 && result % no2 == 0) {
+				//공통배수를 찾은 경우
+				break;
+			}
+			result++;
+		}
+		//결고 ㅏ출력 
+		JOptionPane.showMessageDialog(null, no1 + "과 " + no2 + " 의 최소공배수는 [" + result + "] 입니다.");
+		
 	}
 
 }

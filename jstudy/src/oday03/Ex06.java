@@ -10,22 +10,27 @@ public class Ex06 {
 
 	public static void main(String[] args) {
 		
-		/*
+	/*	
 		double year = 365.2426; //1년은 365일, 8760시간, 525600분, 31536000초 이다.
 		
 		double hour = year * 24;
 		
 		double min = hour * 60;
 		
-		double sec = (float) (min * 60);
+		double sec = min * 60;
 		
-		System.out.print("365.2426일은 "+ (int)year + "일, " +(int) hour + "시간, " +(int) min + "분, " + (int)sec + "초 이다.");
-		*/
+		System.out.print(year + "일은 "+ (int)year + "일, " +(int) hour + "시간, " +(int) min + "분, " + (int)sec + "초 이다.");
+	*/	
 		
 		double ryear = 365.2426;
 		int year = (int)ryear;
 		
-		int sec = (int) ((ryear - year) * 24 * 60 * 60);
+		int total = (int) ((ryear - year) * 24 * 60 * 60);
+		
+		int sec = total % 60;
+		
+		total /= 60;
+		
 		System.out.print(year + ", " + sec);
 	}
 		
