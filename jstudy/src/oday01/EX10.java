@@ -1,9 +1,8 @@
 package oday01;
 
-public class EX10 {
+import java.util.Scanner;
 
-	public static void main(String[] args) {
-		/*
+/*
 		문제 10 ]
 			
 			 1. 키보드로 문자열을 입력받아서
@@ -19,7 +18,25 @@ public class EX10 {
 			 			 문자열중 특정 문자의 위치값을 반환해주는 함수
 			 			 	
 			 			 	문자열.indexOf(문자 || 문자열);
-	 */
-	}
+ */
+public class EX10 {
 
+	public static void main(String[] args) {
+	
+	Scanner sc = new Scanner(System.in);
+
+	System.out.print("문자열을 입력하세요. :");
+	String text = sc.nextLine();
+	sc.close();
+	
+	for (int i = 0; i < text.length(); i++) {
+		char ch = text.charAt(i);
+		
+		int result = text.indexOf('k');//=>2
+		System.out.println(ch);
+		System.out.println(result);
+		}
+	
+	
+	}
 }
