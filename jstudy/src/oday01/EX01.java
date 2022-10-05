@@ -11,7 +11,7 @@ public class EX01 {
 	// 1. 구구단을 만들자 
 	
 	// 2. 랜덤하게 만들자 
-		int dan = (int)(Math.random()*(9-2 +1) +2);
+		int dan = (int)(Math.random()*7+2);
 //		for(; dan < 10 ; dan++){
 			for(int gop=1; gop<10 ; gop++) {
 				System.out.println(dan + " x " + (gop) + " = " + (dan * gop));
