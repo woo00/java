@@ -10,8 +10,7 @@ public class Ex04 {
 			0.1 * 24 시간....
  */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 	}
 
 }
