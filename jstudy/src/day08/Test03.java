@@ -15,11 +15,11 @@ public class Test03 {
 	 		'기본 생성자'는 제작한 클래스에 생성자가 정의되지 않았으면 
 	 		자바가상머신이 만들어서 호출한다.
 		 */
-		s1.width = (int)(Math.random()*(20-5+1)+5);
-		s1.height = (int)(Math.random()*(20-5+1)+5);
+		s1.garo = (int)(Math.random()*(20-5+1)+5);
+		s1.sero = (int)(Math.random()*(20-5+1)+5);
 		
-		System.out.println("밑변 : " + s1.width);
-		System.out.println("높이 : " + s1.height);
+		System.out.println("밑변 : " + s1.garo);
+		System.out.println("높이 : " + s1.sero);
 		
 		s1.setArea();
 		System.out.println("넓이 : " + s1.area);

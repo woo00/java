@@ -1,9 +1,10 @@
 package day08;
 
-public class Won {
-	int ban;
-	double area;
-	double doole;
+public class Won  {
+	
+	public int ban;
+	public double area, doole;
+	
 	public void setArea() {
 		area = ban*ban*3.14;
 	}

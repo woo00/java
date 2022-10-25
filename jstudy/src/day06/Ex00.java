@@ -13,20 +13,11 @@ public class Ex00 {
 출력하는 프로그램을 작성하세요.
  */
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("원하는 정보를 입력하세요 : ");
-		String str = sc.next();
-		sc.close();
-		
-		String info[] = {"정우영","7월12일","32세","남자","미혼","174cm"};
-		
-		String result = "";
-		
+
 		  
 		}
 		
-		
+	
 	
 	}
 
-}
