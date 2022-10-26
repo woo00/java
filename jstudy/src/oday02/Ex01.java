@@ -18,7 +18,14 @@ public class Ex01 {
 
  */
 	public static void main(String[] args) {
-		
+		int no = 0 ;
+		for (int i = 0; i < 5  ; i++) {
+			for (int j = 0; j < 5 ; j++) {
+				no += 1;
+				System.out.printf("%3d" ,no);
+			}
+			System.out.println();
+		}
 	}
 
 }

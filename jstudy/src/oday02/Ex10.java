@@ -37,7 +37,7 @@ public class Ex10 {
 		// 3입력한 정수 기억
 		long num2 = sc.nextLong();
 		
-		/*
+		
 		// 큰 수만 출력하기
 		if(num > num1 && num > num2) {
 			System.out.print(num);
@@ -46,7 +46,7 @@ public class Ex10 {
 		}else if(num2 > num && num2 > num1) {
 			System.out.print(num2);
 		}
-		*/
+		/*
 		if(num > num1) {
 			
 			// 이 블럭은 num > num1
@@ -60,7 +60,7 @@ public class Ex10 {
 			
 			
 		}
-		
+		*/
 //		(num > num1)? () : ();
 	}
 }

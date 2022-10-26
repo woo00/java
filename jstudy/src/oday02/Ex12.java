@@ -58,6 +58,6 @@ public class Ex12 {
 				result = 3200 + use * 174;
 				break;
 		}
-		System.out.println(str+" 전기세 사용량은 ["+result+"]원 입니다.");
+		System.out.println(str+" 전기세는 ["+result+"]원 입니다.");
 	}
 }

@@ -8,11 +8,35 @@ import javax.swing.*;
  		각 자리수의 합을 구해주는 프로그램을 작성하세요.
  */
 
+
 // 10000 ~ 99999
 
 public class Ex01 {
 
 	public static void main(String[] args) {
+		int no = (int)(Math.random()*89999+10001);
+		int tmp = no;
+		int result = 0;
+		for(int i = 0 ; i < 5 ; i ++) {
+			tmp = no % 10;
+		}
+		System.out.println(tmp);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
 		//숫자 입력
 		String sno = JOptionPane.showInputDialog("다섯자리 숫자를 입력하세요!");
 		// 문자열 정수로 변환하고
@@ -31,8 +55,7 @@ public class Ex01 {
 			result += num;
 			tmp /= 10;
 		}
-		*/
-		/*
+		
 		 방법 2.
 		int gop = 10000;
 		while(tmp > 0) {
@@ -43,7 +66,7 @@ public class Ex01 {
 			gop /= 10;
 			
 		}
-		*/
+		
 		
 		for(int i = 0 ; i < sno.length(); i++) {
 			// 맨 앞자리부터 문자 하나씩 꺼내기
@@ -56,5 +79,6 @@ public class Ex01 {
 		}
 		//결과출력
 		JOptionPane.showMessageDialog(null, no + "의 각 자리수의 합은 [ " + result + " ] 입니다.");
+		*/
 	}
 }

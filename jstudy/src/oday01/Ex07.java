@@ -61,15 +61,26 @@ public class Ex07 {
 //			}
 										//			이게 아닌디..?
 // 713 갈수록 줄이기 
-			for(int i = 0 ; i < 5 ; i++) {
-				for(int j = 0 ; j < 4-i ; j++) {
-					System.out.print(" ");
-				}
-				for(int k = 0 ; k < 1 + i * 2 ; k++) {
-					System.out.print("*");
-				}
-			System.out.println();		
-			}
+//			for(int i = 0 ; i < 5 ; i++) {
+//				for(int j = 0 ; j < 4-i ; j++) {
+//					System.out.print(" ");
+//				}
+//				for(int k = 0 ; k < 1 + i * 2 ; k++) {
+//					System.out.print("*");
+//				}
+//				System.out.println();		
+//			}
+//			for (int i = 0; i < 5 ; i++) {
+//				for (int k = 0; k < 1 +i ; k++) {
+//					System.out.print(" ");
+//				}
+//				for (int j = 0 ; j < 7 - i *2 ; j++) {
+//					System.out.print("*");
+//				}
+//				System.out.println();
+//			}
+			
+			
 		
 		
 	}
