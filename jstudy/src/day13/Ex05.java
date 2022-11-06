@@ -12,11 +12,9 @@ public class Ex05 {
 	국영수 총점 평균 석차
  */
 	public Ex05() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
