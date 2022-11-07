@@ -12,11 +12,13 @@ public class Ex01 {
 		출력 기능
 	은 각각의 함수로 제작해서 하세요.
  */
-	int rad;
-	double arround, area;
-	
 	public Ex01() {
+		Circle won = new Circle();
+		won.setBan((int)(Math.random()*16+5));
+		won.setArea();
+		won.setDoole();
 		
+		System.out.println("반지름"+ won.getBan() + "둘레" + won.getDoole() + "넓이" + won.getArea());
 	}
 
 	public static void main(String[] args) {

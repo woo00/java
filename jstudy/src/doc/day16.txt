@@ -283,24 +283,3 @@ heap type :		int[]		float[]
 				이 때는 Wrapper 클래스 타입으로 기술해야한다
 				
 				Array list = new ArrayList();
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-		
-		
-		
-		
-		
-		
-		
-		

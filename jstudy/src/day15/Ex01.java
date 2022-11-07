@@ -24,7 +24,7 @@ public class Ex01 {
 		
  */
 	public Ex01() {
-		abc("dooy", 1, 2, 3);
+		abc("dooly", 1, 2, 3);
 	}
 	
 	public void printSum(int...no) {

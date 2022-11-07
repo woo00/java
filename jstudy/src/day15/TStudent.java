@@ -1,13 +1,13 @@
 package day15;
 
-public class Student {
+public class TStudent {
 	private String name;
 	private int java, db, web, total, rank;
 	private double avg;
 	
-	public Student() {} // 데이터 입력없이 객체 만드는 방법
+	public TStudent() {} // 데이터 입력없이 객체 만드는 방법
 
-	public Student(String name, int java, int db, int web) {
+	public TStudent(String name, int java, int db, int web) {
 		// 필요한 데이터 입력하면 객체만드는 방법
 		this.name = name; // 입력된 이름으로 멤버 변수 셋팅
 		this.java = java;

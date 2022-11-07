@@ -10,12 +10,26 @@ public class Ex05 {
 	배열은 [10][6]으로 만들어서처리
 	
 	국영수 총점 평균 석차
- */
+ */	
+	int score, hap, rank = 0;
+	double avg = 0.;
+	
 	public Ex05() {
+		score();
+		totalAvg();
+		print();
 	}
-
+	public void score() {
+		
+	}
+	public void totalAvg() {
+		
+	}
+	public void print() {
+		
+	}
 	public static void main(String[] args) {
-
+		new Ex05();
 	}
 
 }

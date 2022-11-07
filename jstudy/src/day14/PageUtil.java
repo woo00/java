@@ -105,10 +105,10 @@ public class PageUtil {
 		this.pageGroup = pageGroup;
 	}
 	public int getSartPage() {
-		return sartPage;
+		return startPage;
 	}
-	public void setSartPage(int sartPage) {
-		this.sartPage = sartPage;
+	public void setSartPage(int startPage) {
+		this.startPage = startPage;
 	}
 	public int getEndPage() {
 		return endPage;
