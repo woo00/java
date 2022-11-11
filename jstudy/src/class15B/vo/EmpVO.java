@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class EmpVO {
 	private int mno, mgr, dno, sal, comm, grade;
-	private String name, job, sname, dname, loc, sdate;
+	private String name, job, mail, sname, dname, loc, sdate;
 	private Date hdate;
 	private Time htime;
 	
@@ -58,6 +58,12 @@ public class EmpVO {
 	public void setJob(String job) {
 		this.job = job;
 	}
+	public String getMail() {
+		return mail;
+	}
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
 	public String getSname() {
 		return sname;
 	}
@@ -80,7 +86,7 @@ public class EmpVO {
 		return sdate;
 	}
 	public void setSdate() {
-		SimpleDateFormat form = new SimpleDateFormat("yyyy년 mm월 dd일");
+		SimpleDateFormat form = new SimpleDateFormat("yyyy년 MM월 dd일");
 		sdate = form.format(hdate);
 	}
 	public void setSdate(String sdate) {

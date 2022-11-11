@@ -12,6 +12,8 @@ public class Ex03 {
 			"heedong", "gildong", "lina", "loopy", "zoro"
 	};
 	public Ex03() {
+		int ran = (int)(Math.random()*7+4);
+		String[] names = new String[ran];
 		
 	}
 

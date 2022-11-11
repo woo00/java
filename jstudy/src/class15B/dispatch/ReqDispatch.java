@@ -2,7 +2,7 @@ package class15B.dispatch;
 
 import java.util.HashMap;
 
-import class15B.controler.MainController;
+import class15B.controller.MainController;
 
 public class ReqDispatch {
 	HashMap<String, MainController> map;

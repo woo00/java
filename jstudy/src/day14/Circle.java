@@ -29,4 +29,10 @@ public class Circle {
 	public void setArea(double area) {
 		this.area = area;
 	}
+	
+	@Override
+	public String toString() {
+		return "반지름" +ban+"이고\n둘레가" + doole + "이고\n넓이가" +
+				area + "인 원.";
+	}
 }

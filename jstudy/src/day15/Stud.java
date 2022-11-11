@@ -32,11 +32,11 @@ public class Stud {
 	public Stud(String name, int ban, int no, int ... score) {
 		this(name, ban, no, score[0], score[1], score[2]);
 	}
-	public String getNmae() {
+	public String getName() {
 		return name;
 	}
-	public void setNmae(String nmae) {
-		this.name = nmae;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public int getBan() {
 		return ban;

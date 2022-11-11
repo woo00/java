@@ -13,6 +13,22 @@ public class Samgak {
 		setArea();
 	}
 	
+	public int getGaro() {
+		return garo;
+	}
+
+	public void setGaro(int garo) {
+		this.garo = garo;
+	}
+
+	public int getSero() {
+		return sero;
+	}
+
+	public void setSero(int sero) {
+		this.sero = sero;
+	}
+
 	public void setArea() {
 		area = garo * sero * 0.5;
 	}

@@ -12,6 +12,18 @@ public class SmartJDBC {
 		}
 	}
 
+	public Connection getCon() {
+		String user = "scott";
+		String pw = "tiger";
+		Connection con = null;
+		String url = "jdbc:oracle:thin:@localhost:1521:xe";
+		try {
+			con = DriverManager.getConnection(url,user,pw);
+		}catch(Exception e) {}
+		
+		return con;
+	}
+
 	public Connection getCon(String user, String pw) {
 		Connection con = null;
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";

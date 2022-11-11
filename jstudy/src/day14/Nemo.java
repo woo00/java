@@ -39,6 +39,11 @@ public class Nemo {
 	public void setArea(double area) {
 		this.area = area;
 	}
+	@Override
+	public String toString() {
+		return "밑볕이" +garo+"이고\n높이가" + sero + "이고\n넓이가" +
+				area + "인 사각형.";
+	}
 	
 	public void test01() {
 		new Nemo();

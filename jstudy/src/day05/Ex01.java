@@ -33,13 +33,14 @@ public class Ex01 {
 				
 				
 		System.out.print("가장큰수 : " + result);
-				
+	}
+}
+	/*
 =======
      문제 1 ]
    숫자 3개를 입력받아서
    가장 큰수를 선택해서 출력해주는 프로그램을
    3항 조건 연산자를 사용해서 구현하세요.
- */
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -62,3 +63,4 @@ public class Ex01 {
 	}
 
 }
+	 */
