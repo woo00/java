@@ -1,12 +1,14 @@
 package day14;
 
+
 /*
 	학생의 이름, 국어, 영어, 수학, 총점, 평균 점수, 등수
 	를 기억할 클래스
  */
 public class Student {
 	String name;
-	int kor, eng, math, total, rank;
+	int kor, eng, math, total;
+	int rank = 1;
 	double avg;
 	public Student() {}
 	public Student(String name, int kor, int eng, int math) {
@@ -53,6 +55,12 @@ public class Student {
 	}
 	public int getRank() {
 		return rank;
+	}
+	public void setRank(Student other) {
+		
+		if(total < other.getTotal()) {
+			rank += 1;
+		}
 	}
 	public void setRank(int rank) {
 		this.rank = rank;

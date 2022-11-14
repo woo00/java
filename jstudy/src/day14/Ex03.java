@@ -13,8 +13,34 @@ public class Ex03 {
 	};
 	public Ex03() {
 		int ran = (int)(Math.random()*7+4);
-		String[] names = new String[ran];
+		Student [] stud = new Student[ran];
+		for(int i = 0 ; i < stud.length; i++) {
+			Student s = new Student();
+			s.setKor((int)(Math.random()*60+41));
+			s.setEng((int)(Math.random()*60+41));
+			s.setMath((int)(Math.random()*60+41));
+			s.setTotal();
+			s.setAvg();
+			s.setName(names[i]); 
+			stud[i] = s;
+		}
 		
+		for (Student s : stud) {
+			System.out.printf("이름 : %4s\n국어 : %3d\n영어 : %3d\n수학 : %3d\n 총점 : %4d\n평균 : %5.2f\n\n"
+					,s.getName(),s.getKor(),s.getEng(),s.getMath(),s.getTotal(),s.getAvg()
+					);
+			System.out.println("------------------------------------------------------");
+		}
+		for (int i = 0 ; i < stud.length; i++) {
+			for(int j = 0 ; j < stud.length; j++) {
+				stud[i].setRank(stud[j]);
+			}
+		}
+		for (Student s : stud) {
+			System.out.printf("석차 : %1d | 이름 : %4s\n국어 : %3d\n영어 : %3d\n수학 : %3d\n 총점 : %4d\n평균 : %5.2f\n\n"
+					,s.getRank(),s.getName(),s.getKor(),s.getEng(),s.getMath(),s.getTotal(),s.getAvg()
+					);
+		}
 	}
 
 	public static void main(String[] args) {
